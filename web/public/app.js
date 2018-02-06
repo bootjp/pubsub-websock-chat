@@ -1,5 +1,6 @@
 $(function () {
   "use strict";
+  const audio = new Audio('Cyber14-1.mp3');
   // for better performance - to avoid searching in DOM
   var content = $('#content');
   var input = $('#input');
@@ -61,6 +62,7 @@ $(function () {
           json.data[i].color, new Date(json.data[i].time));
       }
     } else if (json.type === 'message') { // it's a single message
+      audio.play()
       // let the user write another message
       input.removeAttr('disabled');
       addMessage(json.data.author, json.data.text,
