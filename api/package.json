@@ -2,5 +2,8 @@
   "dependencies": {
     "redis": "^2.8.0",
     "websocket": "1.0.25"
+  },
+  "devDependencies": {
+    "@types/node": "^9.4.1"
   }
 }

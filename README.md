@@ -13,9 +13,11 @@ This repository is a project for learning of my PubSub.
   
 * ToDO 
   * [x] .gitignoreを整理してnode module をコミットしない
+  * [ ] typescriptを導入して安全で保守的なコード管理を実現する
   * [ ] ローカル用にdocker コンテナ化
   * [ ] パブリッククラウドのマネージサーバーで同等の実装を行う
   * [ ] ハードコーディングしている環境依存値を環境変数より取得するようにする
+  + [ ] リファクタリング
   
 * /web/publicフォルダにある `Cyber14-1.mp3` は [Music is VFR](http://musicisvfr.com/free/license.html) 様より
 
