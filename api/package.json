@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "redis": "2.*",
+    "redis": "3.*",
     "websocket": "1.*"
   },
   "devDependencies": {
